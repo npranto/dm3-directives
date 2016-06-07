@@ -6,11 +6,28 @@
 </head>
 <body ng-controller="rootCtrl">
 
+<nav-bar user = "user"></nav-bar>
+<h3>{{user}}</h3>
+<input type="text" ng-model="userName">
+<name-dir 
+	user-name="user" 
+	today="Tuesday"
+>	
+</name-dir>
+
+
+
+
+
+
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 <script src="app.js"></script>
 <script src="rootCtrl.js"></script>
+<script src="navBar.js"></script>
+<script src="./nameDirective/nameDir.js"></script>
 
 </body>
 </html>
